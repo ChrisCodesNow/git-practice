@@ -8,8 +8,13 @@ void say_hi(string name){
     cout << message << endl;
 }
 
+void app_name(string name){
+    string title = "<h1>Welcome to " + name + "</h1>";
+    cout << title << endl;
+}
+
 
 int main(){
-    say_hi("Joe");
+    app_name("zoombie olympics!");
     return 0;
 }
